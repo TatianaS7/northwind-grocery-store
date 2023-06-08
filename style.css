@@ -1,0 +1,99 @@
+/* NAVIGATION - ALL PAGES*/
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: #fdfdd2;*/
+
+     /*background-color: azure;*/
+     padding: 10px 50px 10px 50px;
+ }
+ 
+ .navbar-logo img{
+    margin-top: 10px;
+     max-height: 130px;
+ }
+ 
+ .page-links li {
+     list-style: none;
+     display: inline;
+     margin: 15px;
+     font-weight: 500;
+     text-transform: uppercase;
+ }
+ @media screen and (max-width: 600px) {
+ 
+ }
+ .page-links a {
+     text-decoration: none;
+     color: black;
+ }
+ .page-links a:hover, .page-links .current{
+     text-decoration: underline;
+     text-decoration-color: black;
+     text-decoration-thickness: 2px;
+ }
+ .store-locator {
+    /*background-color: #fdfdd2;*/
+    padding: 15px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px;
+    border-top-style: solid;
+ }
+ .page-links img {
+    max-height: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+ }
+ hr {
+     margin-bottom: 0;
+ }
+ /* END OF NAVIGATION */
+
+ /*START OF HOME PAGE*/
+.card.text-center {
+   margin-left: 30px; 
+   margin-right: 30px;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 20px;
+}
+
+#confections, #meat, #dairy {
+    font-size: 30px;
+}
+ .card-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.5;
+ }
+ .card-text {
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .card-img {
+    opacity: 100%;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: auto;
+
+ }
+ #order {
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+ }
+ .btn.btn-dark {
+    font-weight: 500;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+ }
+ .card-img-overlay {
+    margin: 20px 0 0 30px;
+ }
