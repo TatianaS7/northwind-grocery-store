@@ -56,6 +56,26 @@
    margin-right: 30px;
 }
 
+.banner {
+   margin: 30px 0 30px 0;
+   padding: 40px 0 20px 0;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.banner h4 {
+   font-size: 35px;
+   font-weight: 800;
+   /*text-decoration: underline;
+   text-underline-offset: 15px;*/
+}
+
+span {
+   text-decoration: underline;
+   text-decoration-color: red;
+   text-underline-offset: 10px;
+}
+
 .card-deck {
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +84,7 @@
 }
 
 #confections, #meat, #dairy {
-    font-size: 30px;
+    font-size: 25px;
 }
  .card-title {
     font-size: 50px;
@@ -97,3 +117,92 @@
  .card-img-overlay {
     margin: 20px 0 0 30px;
  }
+
+ /* START OF PRODUCTS PAGE*/
+.groceries {
+   width: 100%;
+   overflow: hidden;
+}
+ .coupon-banner {
+   background: rgba(255, 157, 0, 0.358);
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 15px;
+}
+.coupons {
+   font-weight: 500;
+   text-transform: uppercase;
+}
+.download {
+   font-weight: bold;
+}
+ .browse {
+   margin-top: 40px;
+   margin-left: 60px;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 30px;
+}
+
+ #category-output, #all-output {
+   margin: 0px 70px 70px 70px;
+}
+select {
+   margin-top: 20px;
+   margin-left: 60px;
+}
+
+#category-dropdown {
+   margin-top: 10px;
+}
+
+#productCard {
+display: flex;
+justify-content: space-evenly;
+margin: 10px 10px 20px 10px;
+}
+
+#productCardTitle {
+   font-size: 20px;
+}
+
+.view-product-btn {
+   border-color: black;
+   border-style: solid;
+   padding: 5px 10px 5px 10px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+   font-size: 13px;
+}
+ /* END OF PRODUCTS PAGE*/
+
+ /* START OF DETAILS PAGE*/
+.product {
+   margin-left: 80px;
+   margin-top: 30px;
+}
+#productSupplier {
+   font-size: 20px;
+}
+#productTitle {
+   font-size: 50px;
+}
+.stock {
+   font-size: 17px;
+   font-weight: 600;
+   text-decoration: none;
+}
+.cart-btn {
+   border-color: black;
+   border-style: solid;
+   padding: 5px 10px 5px 10px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+ /* END OF DETAILS PAGE*/
